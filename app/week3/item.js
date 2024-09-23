@@ -1,4 +1,4 @@
-function Item({ name, quantity, category }) {
+export default function Item({ name, quantity, category }) {
   return (
     <ul className="bg-yellow-500 m-2 w-[30%]  pl-3 py-2 rounded">
       <li>
@@ -11,4 +11,3 @@ function Item({ name, quantity, category }) {
   );
 }
 
-export default Item;
